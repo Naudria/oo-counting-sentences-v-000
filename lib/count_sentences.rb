@@ -15,6 +15,11 @@ class String
   end
 
   def count_sentences
-
+    @words = self.split
+    @words.each do |x|
+      if x == ""
+        @words.delete(x)
+      end
+    end
   end
 end
