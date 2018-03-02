@@ -21,5 +21,6 @@ class String
         @words.delete(x)
       end
     end
+    @words.length
   end
 end
